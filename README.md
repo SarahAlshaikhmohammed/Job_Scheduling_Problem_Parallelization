@@ -5,7 +5,6 @@
 This project was implemented as part of the ARTI 503 - Parallel Computer Architecture and Programming course at Imam Abdulrahman Bin Faisal University, where job scheduling algorithm implemented using OpenMP to optimize execution time and resource utilization. The program uses a greedy algorithm combined with recursive strategies to allocate job slots based on deadlines and profits. 
 The combination of three methods (Critical, Atomic, and Reduction) was used to address race conditions in a job scheduling algorithm, leveraging OpenMP for parallelization. Therefore, achieves improved performance over traditional sequential methods, making it suitable for large-scale scheduling problems.
 
----
 
 ## **Team and Instructor**
 **Team Members**:
@@ -17,9 +16,8 @@ The combination of three methods (Critical, Atomic, and Reduction) was used to a
   - [Hind Aldossary]()
 
 **Instructor**:  
-  - Dr. Rabab Alkhalifa
+  Dr. Rabab Alkhalifa
 
----
 
 ## **Key Results**
 ### **Individual Parallelization Methods Results**
@@ -31,9 +29,9 @@ Individual parallelization methods (Critical, Atomic, and Reduction) were implem
    | Atomic    | 0.125s         | 0.15%         |
    | Reduction | 0.123s         | 0.12%         |
 2.  **Execution Time of Different Cores**
-![Execution Time of Different Cores](./Execution_Time.png)
+![Execution Time of Different Cores](./Assets/Execution_Time.png)
 3.  **Results of Different Cores**
-![Results of Different Cores](./Results.png)  
+![Results of Different Cores](./Assets/Results.png)  
 
 The **Reduction Method** showed the best performance in terms of both execution time and accuracy, making it the most efficient individual method.
 
@@ -47,11 +45,10 @@ The combined version integrates all three methods (Critical, Atomic, and Reducti
    | Impact              | 1.56% improved | 0.137% percent error |
  
 2. **Impact of Core Count on Performance**
-![Impact of Core Count on Performance](./Combined.png)
+![Impact of Core Count on Performance](./Assets/Combined.png)
 
 The Combined Version optimized performance by integrating multiple methods and cores, where resulted the **best performance at 4 cores**.
 
----
 
 ## **Prerequisites**
 To run this project, ensure you have the following:
@@ -59,7 +56,6 @@ To run this project, ensure you have the following:
 2. Compatible OS (Windows/Linux/macOS).
 3. Terminal or Command-Line Interface for compilation and execution.
 
----
 
 ## **Installation**
 ### **Windows Installation (Using MSYS2)**
@@ -102,9 +98,9 @@ brew install gcc
 ```
 3. Verify installation:
 ```bash
-g++<version> -fopenmp --version
+g++ <version> -fopenmp --version
 ```
-*Note: (Replace <version> with the installed GCC version, e.g., g++-11)*
+Note: (Replace <version> with the installed GCC version, e.g., g++-11)
 ---
 
 ## **Run the Code**
