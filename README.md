@@ -13,7 +13,7 @@ The combination of three methods (Critical, Atomic, and Reduction) was used to a
   - [Renad Alharbi](http://linkedin.com/in/iam-renad-alharbi)
   - [Maha Baaqil]()
   - [Fatimah Alkubaisi](https://sa.linkedin.com/in/fatimah-alkubaysi-8684612ab)
-  - [Hind Aldossary]()
+  - [Hind Aldossary](hind5.aldossary@gmail.com)
 
 **Instructor**:  
   Dr. Rabab Alkhalifa
