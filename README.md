@@ -101,7 +101,7 @@ brew install gcc
 g++ <version> -fopenmp --version
 ```
 Note: (Replace <version> with the installed GCC version, e.g., g++-11)
----
+
 
 ## **Run the Code**
 ### **Step 1: Clone the Repository**
