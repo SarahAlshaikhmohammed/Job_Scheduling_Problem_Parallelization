@@ -2,8 +2,8 @@
 # **Parallelization of Job Scheduling Problem Optimization Using OpenMP**
 
 ## **Project Description**
-This project was implemented as part of the ARTI 503 - Parallel Computer Architecture and Programming course at Imam Abdulrahman Bin Faisal University, where job scheduling algorithm implemented using OpenMP to optimize execution time and resource utilization. The program uses a greedy algorithm combined with recursive strategies to allocate job slots based on deadlines and profits. 
-The combination of three methods (Critical, Atomic, and Reduction) was used to address race conditions in a job scheduling algorithm, leveraging OpenMP for parallelization. Therefore, achieves improved performance over traditional sequential methods, making it suitable for large-scale scheduling problems.
+This project was implemented as part of the ARTI 503 - Parallel Computer Architecture and Programming course at Imam Abdulrahman Bin Faisal University, where job scheduling algorithm was implemented using OpenMP to optimize execution time and resource utilization. The program uses a greedy algorithm and recursive strategies to allocate job slots based on deadlines and profits. 
+The combination of three methods (Critical, Atomic, and Reduction) was used to address race conditions in a job scheduling algorithm, leveraging OpenMP for parallelization. Therefore, it achieves improved performance over traditional sequential methods, making it suitable for large-scale scheduling problems.
 
 
 ## **Team and Instructor**
@@ -129,7 +129,6 @@ The program outputs:
 - Total profit.
 - Execution time for sequential and parallel methods.
 
----
 
 ## **Contributing**
 Contributions to improve the project are welcome! Fork the repository, make changes, and submit a pull request.
